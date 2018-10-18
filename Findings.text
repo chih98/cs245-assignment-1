@@ -1,0 +1,3 @@
+I decided to try and use quick sort instead of merge sort because when dealing with primitive data, quick sort is much faster when steps are taken to make sure a good pivot is chosen.
+Although it can be argued that merge sort is more stable because it does not sort equal items, the other half of my algorithm looks at the ends of each run and will stitch the array back together.
+All in all, unless dealing with big data, like an app with millions of users, or machine learning, the small time difference in algorithms isnt the end ofthe world. 
